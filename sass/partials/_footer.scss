@@ -1,0 +1,29 @@
+/*Footer*/
+footer { background-color: rgb(34, 33, 33);
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    p {
+        background-color: rgb(109, 106, 106);
+        border: 2rem rgb(46, 45, 45);
+        width: 100%;
+        height: auto;
+        margin-bottom: auto;
+        padding-top: auto;
+         
+    }
+
+    span{ background-color: rgb(216,6,94);
+        margin: 50px 70px;
+        padding: 5px 15px;
+        border-radius: 1rem;
+         &:hover {
+      background-color: yellow;
+    
+}
+        a {text-decoration: none;
+            color:black;
+
+        }
+    }
+}

@@ -1,0 +1,23 @@
+/*Extend-Mixinds*/
+.botonForm {
+    border: 1px;
+    background-color: rgb(216, 6, 94);
+    padding: 5px;
+    margin: 5px;
+    font-size: small;
+    text-transform: uppercase;
+    
+}
+.botonFormborrar {
+    @extend .botonForm;
+    background-color: rgb(224, 228, 9);
+}
+
+@mixin forma ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.caja {
+    @include forma (70px, 40px)
+}

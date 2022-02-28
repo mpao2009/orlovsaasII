@@ -1,0 +1,77 @@
+/* comentario de bloque en CSS PURO*/
+/*Footer*/
+footer {
+  background-color: #222121;
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px; }
+  footer p {
+    background-color: #6d6a6a;
+    border: 2rem #2e2d2d;
+    width: 100%;
+    height: auto;
+    margin-bottom: auto;
+    padding-top: auto; }
+  footer span {
+    background-color: #d8065e;
+    margin: 50px 70px;
+    padding: 5px 15px;
+    border-radius: 1rem; }
+    footer span:hover {
+      background-color: yellow; }
+    footer span a {
+      text-decoration: none;
+      color: black; }
+
+/*Contacto*/
+.form {
+  background-color: #f20763;
+  background: radial-gradient(circle, #f20763 16%, #2c2f2f 100%);
+  height: 100vh; }
+  .form form {
+    background-color: #131212;
+    color: #d8065e;
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px; }
+    .form form fieldset {
+      font-size: 1rem;
+      text-transform: uppercase; }
+
+/*Estilos Generales*/
+html {
+  font-family: "Nunito Sans" , sans-serif; }
+  html body {
+    background-color: #d8065e; }
+
+/*Extend-Mixinds*/
+.botonForm, .botonFormborrar {
+  border: 1px;
+  background-color: #d8065e;
+  padding: 5px;
+  margin: 5px;
+  font-size: small;
+  text-transform: uppercase; }
+
+.botonFormborrar {
+  background-color: #e0e409; }
+
+.caja {
+  width: 70px;
+  height: 40px; }
+
+/*Mapas listas*/
+.botonFooter-facebook {
+  background-color: #add8e6;
+  border: #add8e6; }
+
+.botonFooter-instagram {
+  background-color: #ffb6c1;
+  border: #ffb6c1; }
+
+.botonFooter-whatsapp {
+  background-color: #90ee90;
+  border: #90ee90; }

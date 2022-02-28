@@ -1,0 +1,13 @@
+/*Mapas listas*/
+$redes: (
+    facebook:#add8e6,
+    instagram:#ffb6c1,
+    whatsapp:#90ee90,
+);
+
+@each $clave, $valor in $redes{
+    .botonFooter-#{$clave}{
+        background-color: $valor;
+        border: $valor;
+    }
+}
